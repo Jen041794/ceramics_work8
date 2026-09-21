@@ -1,0 +1,169 @@
+.navbar-custom-scroll::-webkit-scrollbar {
+    display: none;
+}
+.navbar-custom-scroll {
+    -ms-overflow-style: none;
+}
+
+//=============================
+
+//Header.jsx
+.header-hover {
+    color: #333;
+    transition: 0.2s;
+  
+    &:hover {
+      color: #888;
+    }
+  
+    &.active {
+      color: #6c757d; // 例如灰色
+      border-bottom: 2px solid #6c757d;
+    }
+}
+
+//=============================
+
+//HomePage.jsx
+.icon-link-hover{
+    transition: 0.5s ease-out-in transform;
+    color: black;
+    &:hover{
+        background-color: gray;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+//=============================
+
+//ProductPage.jsx
+.products-category{
+    list-style: none;
+    width: 100%;
+    li{
+        width: 100%;
+    }
+}
+.single-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.img-hover{
+    transition: transform .2s;
+    
+    &:hover{
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+}
+//=============================
+
+// .modal-backdrop{
+//     z-index: 1000;
+// }
+
+//=============================
+
+//AboutUsPage.jsx
+.concept{
+    background:#58a;
+    max-width: 700px;
+    height: 20px;
+    
+    color:white;
+    text-shadow:0 1px hsl(0,0%,85%),0 2px hsl(0,0%,80%),0 3px hsl(0,0%,75%),0 4px
+     hsl(0,0%,70%),0 5px hsl(0,0%,65%),0 5px 10px black;
+}
+.product-video{
+    width: 100%;
+}
+//=============================
+
+// .admin-title{
+//     cursor: pointer;
+//     background: linear-gradient(90deg, rgba(145,145,145,1) 0%, rgba(174,174,175,1) 58%, rgb(202, 199, 199) 100%);
+//     &:hover{
+//         background: rgb(143, 149, 150);
+//     }
+// }
+
+//=============================
+
+.text-wordbreak{
+    word-break: break-all;
+}
+
+.table-container {
+    max-height: 650px;
+    overflow-y: auto;
+}
+.pagination-container {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.content-container {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+//=============================
+
+//Header.jsx
+.header-hover{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    &::after{
+        content: '';
+        width: 0%;
+        height: 3px;
+        background-color: #4d4f4f;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all .3s linear;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+}
+
+//=============================
+//Pagination.jsx
+.page-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    .page-link{
+        color:#333;
+    }
+    
+}
+//=============================
+
+  
+
+@include pad{
+    .custom-header-md-open {
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        left: 0px;
+    }
+}
+
+@include mobile{
+    .vline{
+        display: block;
+    }
+}
