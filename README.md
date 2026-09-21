@@ -5,7 +5,7 @@
 設計走清爽風、加了動畫與 Toast 提醒，讓體驗不只好看也好用，還支援 RWD 自適應顯示，手機也能逛！
 
 
-[陶瓷電商網站](https://jen041794.github.io/reactweek-classproject8-main/)
+[陶瓷電商網站](https://jen041794.github.io/ceramics_work8/)
 --- 
 
 ### 首頁畫面
