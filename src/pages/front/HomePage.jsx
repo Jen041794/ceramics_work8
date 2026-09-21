@@ -98,7 +98,7 @@ const HomePage = () => {
       <div className="home-top-banner-wrap" data-aos="fade-down">
         <div className="container">
           <div className="row align-items-center home-top-banner">
-            <div className="col-lg-6 col-12 home-banner-content">
+            <div className="col-lg-6 col-12 home-banner-content w-auto w-md-100">
               <span className="home-banner-eyebrow">CERAMICS COLLECTION</span>
               <h1 className="home-banner-text fw-bold">
                 幸福悠閒 儉約素樸 現代優雅
