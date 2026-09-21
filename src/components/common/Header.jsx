@@ -8,7 +8,6 @@ const routes = [
     { path: "/", name: "首頁" },
     { path: "/product", name: "商品" },
     { path: "/about", name: "關於我們" },
-    { path: "/blog", name: "部落格" },
     { path: "/cart", name: "購物車" },
 ];
 

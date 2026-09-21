@@ -12,9 +12,6 @@ const Footer = () => {
               <NavLink  className="footer-logo h4 text-decoration-none fw-bold" to="/" style={{color:'#f1f1f1'}}>
                 名奇陶瓷創意
               </NavLink >
-              <NavLink  className="footer-logo h6 text-decoration-none fw-bold" to="/login" style={{color:'#f1f1f1'}}>
-                後台登入
-              </NavLink >
             </div>
             <ul className="d-flex list-unstyled mb-0 h4">
               <li className=''>
