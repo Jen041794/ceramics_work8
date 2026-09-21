@@ -1,3 +1,5 @@
+import dramaClipImg from "../../assets/【醉後決定愛上你-2.jpg";
+
 const AboutUsPage = () => {
   return (
     <>
@@ -88,7 +90,8 @@ const AboutUsPage = () => {
             <p className="fs-4">偶像劇-醉後決定愛上你-片段</p>
             <img
               style={{ width: "100%", objectFit: "cover" }}
-              src="src\assets\【醉後決定愛上你-2.jpg"
+              src={dramaClipImg}
+              alt="偶像劇-醉後決定愛上你-片段"
             />
           </li>
         </ul>
